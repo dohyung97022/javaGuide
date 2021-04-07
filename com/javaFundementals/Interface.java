@@ -4,7 +4,9 @@ package com.javaFundementals;
 
 // public class Whatever implements Interface, Interface2 (여러개도 가능!!!)
 interface Interface {
-    // int i = 3 은 안된다. interface는 parameter를 가질 수 없다.
+    int i = 3;
+    // interface 에서 지정되는 모든 변수는 public static final 이다.
+    public static final int z = 3;
 
     // public void Interface()는 안된다. constructor도 안된다.
 
