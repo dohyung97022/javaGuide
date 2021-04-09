@@ -1,6 +1,7 @@
 package com.calender;
 
 import java.util.Calendar;
+import java.util.Date;
 
 public class Calender {
     public static void main(String[] args) {
@@ -25,5 +26,11 @@ public class Calender {
 
         // 특정 달의 마지막 날을 구하는 방법은
         int lastDateOfMonth = calendar.getActualMaximum(Calendar.DATE);
+
+        // clear 하면 EPOCH Time 으로 초기화된다.
+        calendar.clear();
+
+        // calendar 를 date 로 변경하는 방법
+        Date date = new Date(calendar.getTimeInMillis());
     }
 }
