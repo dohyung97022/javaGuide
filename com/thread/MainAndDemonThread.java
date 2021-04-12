@@ -34,6 +34,11 @@ public class MainAndDemonThread {
         myThread.start();
         myThread2.start();
 
+        // 쓰레드의 우선순위를 지정하는 방법이다.
+        // 쓰레드가 돌아가는 중에도 우선순위를 지정할 수 있다.
+        myThread.setPriority(6);
+        System.out.println(myThread.getPriority());
+
         // join 이란 해당 쓰레드가 종료될 때까지 기다리는 것이다.
 //        try{
 //            myThread.join();
