@@ -2,7 +2,7 @@ package com.annotation;
 
 import java.util.ArrayList;
 
-public class Annotation {
+public class Basic {
     static class Parent{
         public void parentMethod(){
 

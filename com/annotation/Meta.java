@@ -2,7 +2,7 @@ package com.annotation;
 
 import java.lang.annotation.*;
 
-public class MetaAnnotation {
+public class Meta {
     // 메타 에노테이션은 에노테이션을 어떻게
     // 만드는지를 지정해주는 방법이다.
 

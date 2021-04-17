@@ -3,7 +3,7 @@ package com.annotation;
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Target;
 
-public class CreateAnnotation {
+public class Create {
     // target 으로 위치를 지정하고
     @Target(ElementType.TYPE)
     @interface MyAnnotation{

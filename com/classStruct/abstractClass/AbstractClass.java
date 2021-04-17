@@ -1,8 +1,8 @@
 package com.classStruct.abstractClass;
 
 abstract class AbstractClass {
- // function은 만들 수 있다.
-// abstract int absInt;
+ // abstract var 를 만들 수 없다.
+ // abstract int absInt;
 
  // 다만 변수를 가질 수 있고
  int absInt;
