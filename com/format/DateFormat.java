@@ -6,16 +6,16 @@ import java.util.Date;
 
 public class DateFormat {
     public static void main(String[] args) throws ParseException {
-        // date str 으로 변경할 수 있다.
         // format
+        // date str 으로 변경할 수 있다.
         Date today = new Date();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy년-MM월-dd일");
         String format = sdf.format(today);
 
         System.out.println(format);
 
-        // str 에서 date 로 변경이 가능하다.
         // parse
+        // str 에서 date 로 변경이 가능하다.
         Date today2 = sdf.parse(format);
         System.out.println(today2.toString());
 

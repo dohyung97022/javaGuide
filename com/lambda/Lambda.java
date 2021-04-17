@@ -1,5 +1,16 @@
 package com.lambda;
 
+// functionalInterface
+// 람다식을 객체로 지정하는 방법이다.
+// functionalInterface 을 정의하고 지정하도록 하자.
+@FunctionalInterface
+interface FunctionalInterface1{
+    int max(int a, int b);
+}
+
+// java.util.function
+// Functional 파일을 확인해보도록 하자
+// java.util.function 은 모두 람다로 지정 가능하다.
 public class Lambda {
 
     public static void main(String[] args) {
@@ -14,9 +25,4 @@ public class Lambda {
     }
 }
 
-// 람다식을 객체로 지정하는 방법이다.
-// functionalInterface 을 정의하고 지정하도록 하자.
-@FunctionalInterface
-interface FunctionalInterface1{
-    int max(int a, int b);
-}
+

@@ -10,10 +10,12 @@ public class Queuee {
         // 뒤의 참조 변수는 java api 에서 찾아서 사용하도록 하자.
         Queue<String> stringQue = new LinkedList<>();
 
+        // add / offer
         // 추가
         stringQue.add("test"); // exception 반환
         stringQue.offer("test");
 
+        // remove / poll
         // 삭제
         stringQue.remove(); // exception 반환
         stringQue.poll();

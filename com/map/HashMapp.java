@@ -1,10 +1,12 @@
-package com.collection.map;
+package com.map;
 
 import java.util.HashMap;
 import java.util.Map;
 
 public class HashMapp {
     public static void main(String[] args) {
+
+        // loadFactor
         // 크기 10 인 hashMap
         Map hashMap = new HashMap(10);
         // 크기 10 에 80% 에서 확장하는 hashMap

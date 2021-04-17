@@ -15,6 +15,7 @@ public class HashSett {
         stringHash = new HashSet<>(10,0.8f);
 
 
+        // equals / hashCode
         // hashSet 은 중복을 허용하지 않고 해쉬값을 비교한다.
         // 그럼으로 add 를 할 때 equals() 와 hashCode() 를 사용한다.
         // 주의 !!!!
@@ -22,6 +23,7 @@ public class HashSett {
         stringHash.add("아");
 
 
+        // LinkedHashSet
         // 순서를 원한다면 linkedHashSet 을 사용하면 된다.
         stringHash = new LinkedHashSet<>();
     }

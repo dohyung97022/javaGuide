@@ -3,7 +3,7 @@ package com.calender;
 import java.util.Calendar;
 import java.util.Date;
 
-public class Calender {
+public class Get {
     public static void main(String[] args) {
         Calendar calendar = Calendar.getInstance();
 
