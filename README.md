@@ -1,7 +1,23 @@
-# javaGuide
+#Doe's javaGuide
 
-##목차
-* [Annotation](https://github.com/dohyung97022/javaGuide/tree/master/com/annotation)
+Studied From :   
+[자바의 정석](https://www.youtube.com/watch?v=oJlCC1DutbA&list=PLW2UjW795-f6xWA2_MUhEVgPauhGl3xIp)   
+[baeldung.com](https://www.baeldung.com/java-tutorial)
+
+#[A]
+
+* ##[Arrays]()
+    * Arrays.toString
+    * Arrays.deepToString
+    * Arrays.copyOf
+    * Arrays.copyOfRange
+    * Arrays.equals
+    * Arrays.deepEquals
+    * Arrays.asList
+    * Arrays.binarySearch
+    * Arrays.sort
+
+* ##[Annotation](https://github.com/dohyung97022/javaGuide/tree/master/com/annotation)
     * [Create](https://github.com/dohyung97022/javaGuide/blob/master/com/annotation/Create.java)
     * [Basic](https://github.com/dohyung97022/javaGuide/blob/master/com/annotation/Basic.java)
       * @Override
@@ -14,9 +30,34 @@
       * @Retention
       * @Repeatable
       * @Target
+    
+#[B]
 
+#[C]
 
-* [java.util.function](https://github.com/dohyung97022/javaGuide/blob/master/com/Functional/Functionall.java)
+* ##[Calender](https://github.com/dohyung97022/javaGuide/tree/master/com/calender)
+    * [Create]()
+    * [Get]()
+    * [Set]()
+    * [Clear]()
+    * [Add / Roll]()
+    
+* ##[Class]()
+    * [Abstract]()
+    * [Anonymous]()
+    * [Array of different Classes]()
+    * [Capsulization]()
+    * [Casting]()
+        * [UpCasting]()
+        * [DownCasting]()
+    * [Constructor]()
+    * [InnerClass]()
+    * [Object Class]()
+    * [Override]()
+    * [Polymorphism]()
+    
+
+* ##[java.util.function](https://github.com/dohyung97022/javaGuide/blob/master/com/Functional/Functionall.java)
     * [Basic]()
         * Runnable
         * Consumer
@@ -37,48 +78,22 @@
 
   
 
-* [Calender](https://github.com/dohyung97022/javaGuide/tree/master/com/calender)
-  * [Create]()
-  * [Get]()
-  * [Set]()
-  * [Clear]()
-  * [Add / Roll]()
+
     
 
-* [Class]()
-    * [Abstract]()
-    * [Anonymous]()
-    * [Array of different Classes]()
-    * [Capsulization]()
-    * [Casting]()
-        * [UpCasting]()
-        * [DownCasting]()
-    * [Constructor]()
-    * [InnerClass]()
-    * [Object Class]()
-    * [Override]()
-    * [Polymorphism]()
+
     
 
-* [Interface]()
+* ##[Interface]()
     * public static final variable
     * public abstract function
     * default function
 
 
-* [Arrays]()
-  * Arrays.toString
-  * Arrays.deepToString
-  * Arrays.copyOf
-  * Arrays.copyOfRange
-  * Arrays.equals
-  * Arrays.deepEquals
-  * Arrays.asList
-  * Arrays.binarySearch
-  * Arrays.sort
+
     
 
-* [Collection]()
+* ##[Collection]()
     * [Iterator]()
       * Create
       * iterator.hasNext
@@ -141,7 +156,7 @@
         * Collections.checkedMap
     
         
-* [Map]()
+* ##[Map]()
   * [HashMap]()
     * loadFactor
   * [TreeMap]()
@@ -158,19 +173,19 @@
     * map.vales
 
     
-* [Compare]()
+* ##[Compare]()
     * Comparable
     * Comparator
     * sort
 
     
-* [Enum]()
+* ##[Enum]()
     * enum.valueOf
     * enum.name
     * enum.ordinary
     
 
-* [Exception]()
+* ##[Exception]()
     * [Method exceptions]()
     * [Multi Catch Block]()
     * [exception]()
@@ -178,7 +193,7 @@
         * exception.getMessage
         
 
-* [Format]()
+* ##[Format]()
     * [SimpleDateFormat]()
         * simpleDateFormat.format
         * simpleDateFormat.parse
@@ -187,27 +202,28 @@
         * deciFormat.format
         * deciFormat.parse
     
-* [Generics]()
+* ##[Generics]()
     * Generic Class
     * Generic Function
     * \<? extends Class>
     * \<? super Class>
 
 
-* [Named For Loop]()
+* ##[For Loop]()
+    * Named for loop
 
 
-* [Input]()
+* ##[Input]()
     * [String[] args]()
     * [Scanner]()
     
 
-* [Lambda]()
+* ##[Lambda]()
     * @FunctionalInterface
     * java.util.function
     
 
-* [Math]()
+* ##[Math]()
     * Math.min
     * Math.max
     * Math.random
@@ -217,13 +233,13 @@
     * Math.ceil
  
    
-* [Operators]()
+* ##[Operators]()
     * [? Operator]()
     * [Lost Values]()
     * [Prefix, PostFix Operator]()
 
 
-* [Optional]()
+* ##[Optional]()
     * Create
     * Optional.of
     * optional.get
@@ -232,14 +248,185 @@
     * optional.orElseThrow
  
    
-* [Stream]()
-  
-* Stream 이어하기
+* ##[Stream]()
+    * [Create]()
+        * Arrays.stream
+        * collection.stream
+        * Stream.of  
+        * Stream.iterate
+        * Stream.generate  
+        * Stream.range
+    * [Mid operation]()
+        * stream.skip
+        * stream.limit
+        * stream.distinct
+        * stream.filter
+        * stream.sorted
+        * stream.map
+        * stream.flatMap
+    * [Final operation]()
+        * stream.count
+        * stream.sum
+        * stream.max
+        * stream.min
+        * stream.forEach
+        * stream.forEachOrdered
+        * stream.allMatch
+        * stream.anyMatch
+        * stream.noneMatch
+        * stream.findMatch
+        * stream.findFirst
+        * stream.findAny
+        * stream.toArray
+        * stream.reduce
+            * reduce -> count
+            * reduce -> sum
+            * reduce -> max
+            * reduce -> min
+        * stream.collect
+            * Collectors.partitioningBy
+            * Collectors.groupingBy
+            * Collectors.counting
+            * Collectors.summingInt
+            * Collectors.maxBy
+            * Collectors.toList
+            * Collectors.toSet
+            * Collectors.toMap
+    * [Multiprocessing]()
+      * stream.sequential
+      * stream.parallel
     
 
+* ##[String]()
+    * [string]()
+        * "" / null
+        * constant pool
+        * string.compareTo
+        * string.concat
+        * string.contains
+        * string.endsWith
+        * string.indexOf
+        * string.lastIndexOf
+        * string.split
+        * string.join
+        * string.substring
+        * string.trim
+        * String.valueOf
+    * [StringBuffer]()
+        * Create
+        * stringBuffer.equals
+        * stringBuffer.append
+        * stringBuffer.insert
+        * stringBuffer.capacity
+        * stringBuffer.length
+        * stringBuffer.setLength
+        * stringBuffer.reverse
+        * stringBuffer.setCharAt
+        * stringBuffer.subString
+        * stringBuffer.toString
+    * [StringBuilder]()
+        * Single Threading 
+        * Difference with StringBuffer
+    
 
-* [Design Patterns]()
-    * Creation
+* ##[Thread]()
+    * [thread]()
+        * Create
+            * extends Thread
+            * implements Runnable
+        * thread.start
+        * thread.join
+        * thread.sleep  
+        * thread.interrupt
+        * thread.setPriority  
+        * thread.getState
+            * Thread.State.NEW
+            * Thread.State.RUNNABLE
+            * Thread.State.BLOCKED
+            * Thread.State.WAITING
+            * Thread.State.TIMED_WAITING
+            * Thread.State.TERMINATED
+        * Deprecated Methods
+            * [Why deprecated?](https://docs.oracle.com/javase/8/docs/technotes/guides/concurrency/threadPrimitiveDeprecation.html)
+            * thread.stop
+            * thread.suspend
+            * thread.resume
+    * [Daemon]()
+        * Usage
+        * thread.setDaemon
+    * [ThreadGroup]()
+        * thread.getThreadGroup
+        * threadGroup.getName
+        * threadGroup.getMaxPriority
+        * threadGroup.activeCount
+        * threadGroup.activeGroupCount
+        * threadGroup.setDaemon
+        * threadGroup.interrupt
+        * threadGroup.destroy
+        * threadGroup.isDestroyed
+    * [Synchronized]()
+        * synchronized method
+        * synchronized block
+        * wait
+        * notify
+        * [Lock]()
+            * Starvation / Fairness
+            * [ReentrantLock]()
+              * reentrantLock.getHoldCount
+              * reentrantLock.getQueueLength
+              * reentrantLock.isFair
+              * reentrantLock.isHeldByCurrentThread
+              * reentrantLock.isLocked
+            * DeadLock example
+            * lock.lock
+            * lock.tryLock
+            * lock.lockInterruptibility
+            * lock.unlock
+        
+  
+* ##[Variable]()
+    * [All Types]()
+        * byte
+        * short
+        * int
+        * long
+        * float
+        * double
+        * char
+        * boolean
+        * String
+    * [Change Types]()
+        * char -> int
+        * int -> char
+        * int -> String
+        * String -> int
+        * char -> String
+        * String -> char
+        * String -> double
+        * double -> String
+    * [Final]()
+    * [Hash]()
+        * String const pool
+        * object.hashCode
+        * System.identityHashCode
+    * [Literal]()
+    * [Modifier]()
+        * public
+        * protected
+        * private
+        * abstract
+        * native
+        * transient
+        * synchronized
+        * volatile
+        * final
+    * [OverFlow]()
+    * [Printf]()
+    * [Reference variable by type]()
+
+
+* ##[Design Patterns]()
+    * Create
         * [Prototype]()
         * [Factory]()
         * [AbstractFactory]()

@@ -1,23 +1,51 @@
-package com.thread;
+package com.thread.synchronizedd;
 
 public class Synchronizedd {
     static class Account {
-        private int balance = 1000;
+        private Integer balance = 1000;
 
         public int getBalance() {
             return balance;
         }
 
-        // 임계 영역은 단 1개의 스레드만 들어갈 수 있다.
-        // 충돌을 막아 오류를 줄여준다.
+        // synchronized method
+        // 이 경우 동기화는 클래스의 객체에 일어난 것이지
+        // function 에서 동기화 된 것이 아니다.
+        // this 에 동기화를 거는 것과 같다.
         public synchronized void withdraw (int money){
             if (balance >= money)
                 balance -= money;
         }
+
+        // synchronized block
+        public void withdraw2 (int money){
+            synchronized (balance){
+                if (balance >= money)
+                    balance -= money;
+            }
+        }
+
+        // wait
+        public void waiting() throws InterruptedException {
+            synchronized (this){
+                wait();
+                System.out.println("wait is notified");
+            }
+        }
+
+        // notify
+        public void notifying(){
+            synchronized (this){
+                notify();
+            }
+        }
     }
 
+    // runnable thread 생성
     static class Thread1 implements Runnable{
+
         Account account = new Account();
+
         @Override
         public void run() {
             while (account.getBalance() > 0){
@@ -30,6 +58,8 @@ public class Synchronizedd {
             }
         }
     }
+
+    // 쓰레드 돌리기
     public static void main(String[] args) {
         Runnable runnable = new Thread1();
         Thread thread = new Thread(runnable);

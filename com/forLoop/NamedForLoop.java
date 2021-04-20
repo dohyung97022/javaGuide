@@ -1,4 +1,4 @@
-package com.grammer;
+package com.forLoop;
 
 public class NamedForLoop {
     public static void main(String[] args) {
