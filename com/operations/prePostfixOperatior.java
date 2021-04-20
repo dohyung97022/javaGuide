@@ -9,7 +9,7 @@ public class prePostfixOperatior {
         System.out.println(a);
         System.out.println(a1);
 
-        // 참조/저장한 이후 더한다.
+        // 저장한 이후 더한다.
         int b = 0;
         int b1 = 0;
         b = b1++;
