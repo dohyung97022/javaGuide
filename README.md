@@ -1,12 +1,12 @@
-#Doe's javaGuide
+# Doe's javaGuide
 
 Studied From :   
 [자바의 정석](https://www.youtube.com/watch?v=oJlCC1DutbA&list=PLW2UjW795-f6xWA2_MUhEVgPauhGl3xIp)   
 [baeldung.com](https://www.baeldung.com/java-tutorial)
 
-#[A]
+# [A]
 
-* ##[Arrays]()
+* ## [Arrays]()
     * Arrays.toString
     * Arrays.deepToString
     * Arrays.copyOf
@@ -17,7 +17,7 @@ Studied From :
     * Arrays.binarySearch
     * Arrays.sort
 
-* ##[Annotation](https://github.com/dohyung97022/javaGuide/tree/master/com/annotation)
+* ## [Annotation](https://github.com/dohyung97022/javaGuide/tree/master/com/annotation)
     * [Create](https://github.com/dohyung97022/javaGuide/blob/master/com/annotation/Create.java)
     * [Basic](https://github.com/dohyung97022/javaGuide/blob/master/com/annotation/Basic.java)
       * @Override
@@ -31,18 +31,18 @@ Studied From :
       * @Repeatable
       * @Target
     
-#[B]
+# [B]
 
-#[C]
+# [C]
 
-* ##[Calender](https://github.com/dohyung97022/javaGuide/tree/master/com/calender)
+* ## [Calender](https://github.com/dohyung97022/javaGuide/tree/master/com/calender)
     * [Create]()
     * [Get]()
     * [Set]()
     * [Clear]()
     * [Add / Roll]()
     
-* ##[Class]()
+* ## [Class]()
     * [Abstract]()
     * [Anonymous]()
     * [Array of different Classes]()
@@ -57,7 +57,7 @@ Studied From :
     * [Polymorphism]()
     
 
-* ##[java.util.function](https://github.com/dohyung97022/javaGuide/blob/master/com/Functional/Functionall.java)
+* ## [java.util.function](https://github.com/dohyung97022/javaGuide/blob/master/com/Functional/Functionall.java)
     * [Basic]()
         * Runnable
         * Consumer
@@ -84,7 +84,7 @@ Studied From :
 
     
 
-* ##[Interface]()
+* ## [Interface]()
     * public static final variable
     * public abstract function
     * default function
@@ -93,7 +93,7 @@ Studied From :
 
     
 
-* ##[Collection]()
+* ## [Collection]()
     * [Iterator]()
       * Create
       * iterator.hasNext
@@ -156,7 +156,7 @@ Studied From :
         * Collections.checkedMap
     
         
-* ##[Map]()
+* ## [Map]()
   * [HashMap]()
     * loadFactor
   * [TreeMap]()
@@ -173,19 +173,19 @@ Studied From :
     * map.vales
 
     
-* ##[Compare]()
+* ## [Compare]()
     * Comparable
     * Comparator
     * sort
 
     
-* ##[Enum]()
+* ## [Enum]()
     * enum.valueOf
     * enum.name
     * enum.ordinary
     
 
-* ##[Exception]()
+* ## [Exception]()
     * [Method exceptions]()
     * [Multi Catch Block]()
     * [exception]()
@@ -193,7 +193,7 @@ Studied From :
         * exception.getMessage
         
 
-* ##[Format]()
+* ## [Format]()
     * [SimpleDateFormat]()
         * simpleDateFormat.format
         * simpleDateFormat.parse
@@ -202,28 +202,28 @@ Studied From :
         * deciFormat.format
         * deciFormat.parse
     
-* ##[Generics]()
+* ## [Generics]()
     * Generic Class
     * Generic Function
     * \<? extends Class>
     * \<? super Class>
 
 
-* ##[For Loop]()
+* ## [For Loop]()
     * Named for loop
 
 
-* ##[Input]()
+* ## [Input]()
     * [String[] args]()
     * [Scanner]()
     
 
-* ##[Lambda]()
+* ## [Lambda]()
     * @FunctionalInterface
     * java.util.function
     
 
-* ##[Math]()
+* ## [Math]()
     * Math.min
     * Math.max
     * Math.random
@@ -233,13 +233,13 @@ Studied From :
     * Math.ceil
  
    
-* ##[Operators]()
+* ## [Operators]()
     * [? Operator]()
     * [Lost Values]()
     * [Prefix, PostFix Operator]()
 
 
-* ##[Optional]()
+* ## [Optional]()
     * Create
     * Optional.of
     * optional.get
@@ -248,7 +248,7 @@ Studied From :
     * optional.orElseThrow
  
    
-* ##[Stream]()
+* ## [Stream]()
     * [Create]()
         * Arrays.stream
         * collection.stream
@@ -297,7 +297,7 @@ Studied From :
       * stream.parallel
     
 
-* ##[String]()
+* ## [String]()
     * [string]()
         * "" / null
         * constant pool
@@ -329,7 +329,7 @@ Studied From :
         * Difference with StringBuffer
     
 
-* ##[Thread]()
+* ## [Thread]()
     * [thread]()
         * Create
             * extends Thread
@@ -384,7 +384,7 @@ Studied From :
             * lock.unlock
         
   
-* ##[Variable]()
+* ## [Variable]()
     * [All Types]()
         * byte
         * short
@@ -425,7 +425,7 @@ Studied From :
     * [Reference variable by type]()
 
 
-* ##[Design Patterns]()
+* ## [Design Patterns]()
     * Create
         * [Prototype]()
         * [Factory]()
